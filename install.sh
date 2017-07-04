@@ -3,7 +3,7 @@ P=~/.sanguis_settings
 
 if [ ! -f $P ]
 then
-  git clone --recursive https://github.com/sanguis/.sanguis_settings.git $P
+  git clone --recursive https://github.com/claytron5000/.sanguis_settings.git $P
   cd $P
 else
   cd $P
